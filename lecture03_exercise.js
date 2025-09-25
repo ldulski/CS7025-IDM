@@ -12,5 +12,10 @@ console.log('Actually, I will be' + age + 1 +'in 12 days');
 
 function lunchOrder(){
     var food = "spicy noodles with veggies";
-    console.log ('I could really use some' + food);
 }
+    console.log ('I could really use some' + food);
+
+function playerScore (){
+    Math.floor(Math.random() * 11);
+}
+console.log(playerScore);

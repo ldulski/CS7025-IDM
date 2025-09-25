@@ -16,6 +16,12 @@ function lunchOrder(){
     console.log ('I could really use some' + food);
 
 function playerScore (){
-    Math.floor(Math.random() * 11);
+   console.log(Math.floor(Math.random() * 11));
 }
-console.log(playerScore);
+
+if (playerScore % 2 === true){
+    console.log("True");
+}
+else {
+    console.log("False");
+}

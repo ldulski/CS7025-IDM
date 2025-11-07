@@ -1,0 +1,569 @@
+/* global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body{
+    background-color: #FFFCF2;
+    color: #353535;
+    margin: 45px 72px;
+    max-width: 1440px;
+}
+section{
+    margin: 0px 0px 45px 0px;
+    border-bottom: 2px solid #353535;
+}
+.nav-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #353535;
+}
+.nav-bar img{
+    max-width: 35%;
+    max-height: auto;
+}
+.nav-bar a img{
+    max-width: 350px;
+}
+
+.nav-bar, ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: flex-start;
+    list-style: none;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: #353535;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 0px 15px;
+}
+
+.nav-bar li a:hover{
+    color: #03178C;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: "Source Serif 4", serif;
+    font-weight: 600;
+    font-size: 5.61rem;
+    line-height: 1.5rem;
+    margin: 0px 0px 20px 0px;
+}
+
+h2{
+    font-family: "Source Serif 4", serif;
+    font-weight: 600;
+    font-size: 3.052rem;
+     margin: 0px 0px 20px 0px;
+}
+
+h3{
+    font-family: "Source Serif 4", serif;
+    color:#353535; 
+    font-size: 2.441rem;
+    line-height: 2.441rem;
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+}
+
+h4{
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: 1.953rem;
+    margin: 20px;
+
+}
+
+p{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.333rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color:#353535; 
+    margin: 0px 0px 20px 0px;
+}
+a{
+    color:#03178C;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color:#353535;
+}
+
+button{
+    background-color:#353535;
+    color: #FFFCF2;
+    padding: 10px 45px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.333rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: #03178C;
+}
+
+button:visited{
+    background-color: #03178C;
+    opacity: 75%;
+}
+.primary-button{
+    background-color:#353535;
+    color: #FFFCF2;
+    padding: 10px 45px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.333rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.primary-button:hover{
+    background-color: #03178C;
+    color: #FFFCF2;
+    text-decoration: none;
+}
+
+.primary-button:visited{
+    background-color: #03178C;
+    color: #FFFCF2;
+    opacity: 75%;
+    text-decoration: none;
+}
+.callout{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.953rem;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.footer{
+    margin-top: 25px;
+    padding: 30px 0px;
+    border-top: 2px solid #353535;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer a:hover{
+    color: #03178C;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.footer li a {
+        text-decoration: none;
+        color: #353535;
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 500;
+        font-size: 1.333rem;
+        padding: 0px 25px;
+}
+
+.caption{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.333rem;
+    font-weight: 400;
+    color:#353535; 
+}
+
+/* homepage css */
+.hero{
+    padding-top: 75px;
+    min-height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+.hero .callout{
+    max-width: 545px;
+}
+
+
+.flexL img{
+    max-width: 50%;
+    max-height: auto;
+}
+.flexL{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+    padding-bottom: 45px;
+}
+
+.flexL .text-content{
+    max-width: 632px;
+}
+
+.text-content p{
+    max-width: 521px;
+    gap: 25px;
+}
+
+.flexR{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 150px;
+    padding-bottom: 45px;
+}
+.flexR .text-content{
+    max-width: 500px;
+}
+
+.flexR img{
+    max-width: 50%;
+    max-height: auto;
+}
+
+/* projects */
+
+.project-intro{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 30px;
+    border-bottom: 2px solid #353535;
+    padding-bottom: 25px;
+    margin-top: 45px;
+}
+
+.project-intro .text-content{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tags{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    gap: 10px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 850px;
+}
+.tags li{
+    margin: 0px 5px;
+    background-color: #03178C80;
+    color:#FFFCF2;
+    padding: 10px 12px;
+    border-radius: 12px;
+}
+
+.project-intro img{
+    max-width: 50%;
+    height: 50%;
+}
+
+.beginning{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 45px;
+    padding: 35px 0px;
+}
+.beginning img{
+    max-width: 50%;
+    height: auto;
+}
+.XLimages img{
+    max-width: 100%;
+    height: auto;
+    margin: 25px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.XLimages ul{
+    padding: 0px;
+    list-style-type: none;
+}
+
+.XLimages li{
+    max-width: 500px;
+    margin: 0px 5px;
+}
+.middle{
+    display: flex; 
+    flex-flow: row nowrap;
+    margin-bottom: 25px;
+    justify-content: flex-start;
+    gap: 32px;
+    padding-bottom: 45px;
+}
+
+.middle img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.middle .text-content{
+    min-width: 630px;
+}
+
+.wireframe-images{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 20%;
+    height: auto;
+}
+
+.highlights{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding-bottom: 45px;
+}
+
+.highlights .text-content{
+    max-width: 652px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.tarot-images{
+    max-width: 652px;
+}
+
+.highlights img{
+    max-width: 100%;
+    height: auto;
+}
+
+.tarot-images ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.tarot-images li{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    max-width: 600px;
+
+}
+
+blockquote{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.953rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    border-left: #03178C solid 8px;
+    padding-left: 15px;
+    margin: 0px 0px 15px 0px;
+}
+
+.attribute{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.333rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color:#353535; 
+}
+
+.end img{
+    max-width: 75%;
+    max-height: auto;
+    margin-top: 15px;
+}
+
+.end{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 45px;
+}
+
+.end p{
+    max-width: 630px;
+}
+
+.mockup-images{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 25%;
+    height: auto;
+}
+.next-project a{
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: 2.441rem;
+    text-decoration: none;
+    color:#FFFCF2;
+    padding: 15px 45px;
+}
+.next-project{
+    display: flex;
+    align-items: center;
+    background-color: #03178C;
+    min-height: 190px;
+    min-width: 1296px;
+    margin: 35px 0px;
+    background-image: url('beacon-multi-screen.jpg');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    transition-timing-function:ease-in;
+    background-position-x: right;
+}
+
+.next-project:hover{
+    background-color: #353535;
+}
+
+.prev-project{
+    display: flex;
+    align-items: center;
+    background-color: #03178C;
+    min-height: 190px;
+    min-width: 1296px;
+    margin: 35px 0px;
+    background-image: url('CC_bonfire_headerimage_v2.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    transition-timing-function:ease-in;
+    background-position-x: right;
+}
+
+.prev-project:hover{
+    background-color: #353535;
+}
+
+.prev-project a{
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: 2.441rem;
+    text-decoration: none;
+    color:#FFFCF2;
+    padding: 15px 45px;
+}
+
+/* bio + contact  */
+.bio{
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: flex-start;
+    gap: 72px;
+    padding: 25px 0px;
+}
+
+.bio img{
+    max-width: 42%;
+    height: 42%;
+}
+.bio .text-contents{
+    max-width: 650px;
+}
+
+.bio ul{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px 120px 0px 0px;
+    list-style-type: none;
+}
+
+.bio li a {
+    margin: 0px;
+    color: #03178C;
+    padding: 0px;
+    font-size: 1.333rem;
+    line-height: 2.75rem;
+}
+
+form{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.953rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color:#353535; 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    min-width: 450px;
+    margin-top: 35px;
+}
+
+input, textarea{ 
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.593rem;
+    font-weight: 400;
+    border: none;
+    background-color:#FFFCF2;
+    color: #353535;
+    max-width: 500px;
+    margin: 20px 0px;
+}
+
+.form-input{
+    border-bottom: 2px solid #353535;
+}
+
+select{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.593rem;
+    font-weight: 400;
+    color: #353535;
+    background-color:#FFFCF2;
+    padding: 14px 0px;
+    border: none;
+    max-width: 500px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+#submit{ 
+    background-color:#353535;
+    color: #FFFCF2;
+    padding: 10px 45px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+}
+#submit:hover{
+    background-color: #03178C;
+    font-weight: 600;
+}
+
+#submit:visited{
+    background-color: #03178C;
+    opacity: 75%;
+}

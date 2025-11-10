@@ -589,7 +589,7 @@ select {
 }
 
 /* toggle styles */
-
+/* 
 .toggle{
     &__button{
         width: 16rem;
@@ -597,4 +597,4 @@ select {
         border-radius: 50%;
         background-color:aquamarine; 
     }
-}
+} */

@@ -16,7 +16,18 @@
         <li><a href="project02.html">Project 02</a></li>
          <li><a href="contact.html">About Me</a></li>
      </ul>
-     
+        <fieldset aria-label="theme toggle" role="radiogroup">
+            <div class="c-toggle">
+                <lable for="light">Light</lable>
+                <span class="c-toggle-wrapper">
+                    <input type="radio" name="theme" id="light" checked>
+                    <input type="radio" name="theme" id="dark">
+                    <span aria-hidden="true" class="c-toggle-background"></span>
+                    <span arie-hidden="true" class="c-toggle-switcher"></span>
+                </span>
+                <lable for="dark">Dark</lable>
+            </div>
+         </fieldset>
     </div> 
     <section class="hero">
         <h1>Welcome!</h1>

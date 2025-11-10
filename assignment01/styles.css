@@ -590,3 +590,11 @@ select {
 
 /* toggle styles */
 
+.toggle{
+    &__button{
+        width: 16rem;
+        height: 16rem;
+        border-radius: 50%;
+        background-color:aquamarine; 
+    }
+}

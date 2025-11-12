@@ -625,11 +625,11 @@ select {
     border-radius: 3.5em;
     /* = height */
     border: 1px solid #ddd;
-    position: relative; // create positioning context for ::after
+    position: relative;
 }
 
 .c-toggle__switcher {
-    // the toggle
+    /* // the toggle */
     display: block;
     position: absolute;
     top: 0;
@@ -667,7 +667,7 @@ select {
 
 
 
-a {
+fieldset a {
     display: block;
     margin: 2em 0;
     padding: .5em;
@@ -687,4 +687,11 @@ a {
 
 fieldset {
     border: none;
+}
+
+#toggle-label {
+    color: #353535;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
 }

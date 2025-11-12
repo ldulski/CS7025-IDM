@@ -589,8 +589,13 @@ select {
 }
 
 /* toggle styles */
-.c-toggle {
+
+/* .c-toggle {
     --basesize: 12px;
+} */
+
+fieldset {
+    border-style: none;
 }
 
 fieldset label {
@@ -632,3 +637,38 @@ input[type="radio"] {
     border: 1px solid #ddd;
     position: relative;
 }
+
+.c-toggle__switcher {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    max-width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: hsla(333, 60%, 60%, 1);
+}
+
+.c-toggle__background{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 0;
+    background-color: #eee;
+    transition: all 0.1s ease-out;
+}
+
+#dark:checked ~ .c-toggle__switcher{
+    right: 0;
+    left: 50%;
+}
+
+#dark:checked ~ .c-toggle__background{
+    background-color: #333;
+}
+

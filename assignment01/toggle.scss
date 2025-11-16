@@ -1,0 +1,25 @@
+@use '../util' as *;
+// https://codepen.io/SaraSoueidan/pen/jpBbrq/?editors=1100
+
+.toggle {
+    border: none;
+
+    &__wrapper {}
+
+    input[type="radio"] {}
+
+    &__background {}
+
+    &__button {
+        position: absoluted;
+        left: rem(3);
+        top: rem(3);
+        right: 100%;
+        width: rem(18);
+        height: rem(18);
+        border-radius: 50%;
+        background-color: cyan;
+        transition: all 150ms ease-in-out;
+    }
+
+}

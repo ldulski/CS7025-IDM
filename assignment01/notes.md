@@ -22,3 +22,4 @@ To-List (Updated: 11/16)
 - add light mode colors
 - double check toggle accessibility 
 - double check for any broken links
+- finish watching video tutorials to make sure I'm not missing anything

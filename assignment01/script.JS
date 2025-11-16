@@ -36,3 +36,13 @@ radioButtons.forEach(button => {
         darkButton.checked ? setDarkMode() : setLightMode();
     });
 });
+
+//when the prefers-color-scheme changes this event will be emitted
+// the event reflects the media query, if it matches, the new color is dark, if/else it's light
+
+window.matchMedia('prefers-color-scheme: dark').addEventListener('change', (event) => {
+    event.matches ? darkButton.click() : lightButton.click();
+});
+
+//load the correct color on startup; giving localStorage precedence
+localAndUpdateColor();

@@ -17,7 +17,7 @@ section {
 .nav-bar {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     border-bottom: 2px solid #353535;
 }
@@ -589,7 +589,9 @@ select {
 }
 
 /* toggle styles */
-
+fieldset {
+    border: none;
+}
 
 /* .c-toggle {
     --baseSize: 12px;

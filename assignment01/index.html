@@ -17,21 +17,19 @@
         <li><a href="project02.html">Project 02</a></li>
          <li><a href="contact.html">About Me</a></li>
      </ul>
-        <fieldset aria-label="theme toggle" role="radiogroup">
-            <div class="toggle">
-                <lable id="toggle-label" for="dark">Dark</lable>
+        <fieldset aria-label="theme toggle" role="radiogroup" class="toggle">
+                <lable id="toggle__label" for="dark">Dark <span class="visually-hidden">On</span></lable>
                 
-                <div class="toggle-wrapper">
-                    <input type="radio" name="theme" id="dark">
-                    <input type="radio" name="theme" id="system" checked>
+                <div class="toggle__wrapper">
+                    <input type="radio" name="theme" id="dark" checked>
+                    <!-- <input type="radio" name="theme" id="system" checked> -->
                     <input type="radio" name="theme" id="light">
-                    <span aria-hidden="true" class="toggle-background"></span>
-                    <span arie-hidden="true" class="toggle-switcher"></span>
+                    <span aria-hidden="true" class="toggle__background"></span>
+                    <span arie-hidden="true" class="toggle__switcher"></span>
                 </div>
 
-                <lable id="toggle-label" for="dark">System Preferences</lable>
-                <lable id="toggle-label" for="light">Light</lable>
-            </div>
+                <!-- <lable id="toggle__label" for="dark">System</lable> -->
+                <lable id="toggle__label" for="light" class="visually-hidden">Dark Mode Off</lable>
          </fieldset>
     </div> 
     <section class="hero">

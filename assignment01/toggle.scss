@@ -1,6 +1,13 @@
-@use '../util' as *;
+// @use '../util' as *;
 // https://codepen.io/SaraSoueidan/pen/jpBbrq/?editors=1100
 
+//function converting pixles to rems
+
+@function rem($pixels, $context: 16) {
+    @return ($pixels / $context) * 1rem;
+}
+
+//toggle 
 .toggle {
     border: none;
     display: grid;

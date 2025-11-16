@@ -1,0 +1,42 @@
+.toggle {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 3rem;
+  margin: 0;
+}
+.toggle lable {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #03178C;
+}
+.toggle lable[for=dark] {
+  line-height: 1.5rem;
+  margin-right: 0.8125rem;
+}
+.toggle__wrapper {
+  position: relative;
+  height: 1.5rem;
+}
+.toggle input[type=radio] {
+  margin: 0 -0.125rem;
+  opacity: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.toggle input[type=radio]:focus ~ .toggle__button {
+  border: 2px solid white;
+}
+.toggle__background {
+  display: block;
+}
+.toggle__button {
+  position: absoluted;
+  left: 0.1875rem;
+  top: 0.1875rem;
+  right: 100%;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  background-color: cyan;
+  transition: all 150ms ease-in-out;
+}/*# sourceMappingURL=toggle.css.map */

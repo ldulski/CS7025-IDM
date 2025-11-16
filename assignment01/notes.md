@@ -11,3 +11,14 @@ Three option toggle: light/dark/system preferences -- https://codepen.io/renddre
 CSS Variables (custom properties) -- https://css-tricks.com/updating-a-css-variable-with-javascript/
 
 Accessibility -- using the correct heading tags
+
+
+To-List (Updated: 11/16)
+
+- add SCSS color styles
+- fix broken image links
+- figure out why Java isn't showing???
+- add dark mode colors
+- add light mode colors
+- double check toggle accessibility 
+- double check for any broken links

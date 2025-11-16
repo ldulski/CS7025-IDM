@@ -45,6 +45,13 @@
 
     &__background {
         display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        border-radius: rem(12);
+        background: magenta;
+        pointer-events: none;
     }
 
     &__button {

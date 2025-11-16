@@ -28,6 +28,13 @@
 }
 .toggle__background {
   display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  border-radius: 0.75rem;
+  background: magenta;
+  pointer-events: none;
 }
 .toggle__button {
   position: absoluted;

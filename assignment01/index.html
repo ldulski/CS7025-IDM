@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logan St. John</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="toggle.scss">
     <link rel="icon" type="image/x-icon" href="logo_icon.svg">
     <script defer src="script.JS"></script>
 </head>
@@ -18,14 +19,18 @@
      </ul>
         <fieldset aria-label="theme toggle" role="radiogroup">
             <div class="c-toggle">
-                <lable id="toggle-label" for="light">Light</lable>
-                <span class="c-toggle-wrapper">
-                    <input type="radio" name="theme" id="light" checked>
+                <lable id="toggle-label" for="dark">Dark</lable>
+                
+                <div class="c-toggle-wrapper">
                     <input type="radio" name="theme" id="dark">
+                    <input type="radio" name="theme" id="system" checked>
+                    <input type="radio" name="theme" id="light">
                     <span aria-hidden="true" class="c-toggle-background"></span>
                     <span arie-hidden="true" class="c-toggle-switcher"></span>
-                </span>
-                <lable id="toggle-label" for="dark">Dark</lable>
+                </div>
+
+                <lable id="toggle-label" for="dark">System Preferences</lable>
+                <lable id="toggle-label" for="light">Light</lable>
             </div>
          </fieldset>
     </div> 

@@ -590,7 +590,8 @@ select {
 
 /* toggle styles */
 
-.c-toggle {
+
+/* .c-toggle {
     --baseSize: 12px;
 
     label {
@@ -624,13 +625,13 @@ select {
     height: 3.5em;
     border-radius: 3.5em;
     /* = height */
-    border: 1px solid #ddd;
-    position: relative;
+/* border: 1px solid #ddd;
+position: relative;
 }
 
 .c-toggle__switcher {
     /* // the toggle */
-    display: block;
+/* display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -677,7 +678,6 @@ fieldset a {
     }
 }
 
-/* support Windows High Contrast Mode. Credit: Adrian Roselli https://twitter.com/aardrian/status/1021372139990134785 */
 @media screen and (-ms-high-contrast: active) {
     .c-toggle__switcher {
         background-color: windowText;
@@ -695,3 +695,4 @@ fieldset {
     font-weight: 500;
     font-size: 1.25rem;
 }
+ */

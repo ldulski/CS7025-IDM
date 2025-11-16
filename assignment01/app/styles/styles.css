@@ -451,7 +451,7 @@ blockquote {
     min-height: 190px;
     min-width: 1296px;
     margin: 35px 0px;
-    background-image: url('beacon-multi-screen.jpg');
+    background-image: url('/assignment01/images/beacon-multi-screen.jpg');
     background-size: 25%;
     background-repeat: no-repeat;
     transition-timing-function: ease-in;
@@ -469,7 +469,7 @@ blockquote {
     min-height: 190px;
     min-width: 1296px;
     margin: 35px 0px;
-    background-image: url('CC_bonfire_headerimage_v2.png');
+    background-image: url('/assignment01/images/CC_bonfire_headerimage_v2.png');
     background-size: 40%;
     background-repeat: no-repeat;
     transition-timing-function: ease-in;

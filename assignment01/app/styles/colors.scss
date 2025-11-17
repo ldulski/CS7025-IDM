@@ -1,5 +1,39 @@
 //global colors
+:root {
+    --offblack: #353535;
+    --offwhite: #FFFCF2;
+    --primaryblue: #03178C;
+    --lightblue: #e2fdff;
 
+    --toggle-bg-light: var(--lightblue);
+    --toggle-bg-start: var(--lightblue);
+    --toggle-light: var(--lightblue);
+    --toggle-button-light: var(--primaryblue);
+
+    --dark-bg: var(--offblack);
+    --dark-text: var(--offwhite);
+    --dark-link: var(--primaryblue);
+    --dark-button-bg: var(--lightblue);
+    --dark-button-text: var(--offblack);
+    --dark-section-line: var(--offwhite);
+    --dark-nav-link: var(--offwhite);
+    --dark-nav-link-hover: var(--lightblue);
+
+    --light-bg: var(--offwhite);
+    --light-text: var(--offblack);
+    --light-link: var(--primaryblue);
+    --light-button-bg: var(--primaryblue);
+    --light-button-text: var(--offwhite);
+    --light-section-line: var(--offblack);
+    --light-nav-link: var(--offblack);
+    --light-nav-link-hover: var(--primaryblue);
+
+    --background: var(--light-bg);
+    --text-color: var(--light-text);
+    --toggle: var(--toggle-light);
+    --toggle-bg: var(--toggle-bg-light);
+    --toggle-button: var(--toggle-button-light);
+}
 
 //light + dark mode colors
 

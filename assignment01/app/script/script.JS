@@ -1,10 +1,10 @@
-
+console.log("Hello");
 
 const darkButton = document.getElementById('dark');
 const lightButton = document.getElementById('light');
 
 const setDarkMode = () => {
-    document.querySelector('body').classList = 'dark';
+    document.querySelector('body').classList.add("dark");
     localStorage.setItem('colorMode', 'dark');
 };
 

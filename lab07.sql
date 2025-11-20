@@ -1,4 +1,5 @@
 CREATE TABLE dantes_inferno (
+    column_ring INTEGER,
     column_circle TINYTEXT,
     column_punishment LONGTEXT,
 );
@@ -29,4 +30,5 @@ VALUES (
         "Swim in a lake of fire and blood",
         "Forced to engage in an eternal battle",
         "Your soul is froze far from God's light"
-    )
+    );
+

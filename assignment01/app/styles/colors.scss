@@ -39,11 +39,103 @@
 //light + dark mode colors
 
 body.light {
-    background-color: #FFFCF2;
-    color: #353535;
+    background-color: var(--light-bg);
+    color: var(--light-text);
+
+    section {
+        border-bottom: 2px solid var(--light-section-line);
+    }
+
+    nav {
+        border-bottom: 2px solid var(--light-section-line);
+    }
+
+    nav li a {
+        color: var(--light-nav-link);
+    }
+
+    nav li a:hover {
+        color: var(--light-nav-link-hover);
+    }
+
+    a {
+        color: var(--light-link);
+    }
+
+    a:visited {
+        color: var(--light-nav-link);
+    }
+
+    button {
+        background-color: var(--light-button-bg);
+        color: var(--light-button-text);
+    }
+
+    //add hover + visited color styles!!!
+
+    .primary-button {
+        background-color: var(--light-button-bg);
+        color: var(--light-button-text);
+    }
+
+    .footer {
+        border-top: 2px solid --light-section-line;
+    }
+
+    //add link hover state colors!!!
+
+    .footer a:hover {
+        color: var(--light-nav-link-hover);
+    }
+
+    .footer li a {
+        color: var(--light-text);
+    }
+
+    .caption {
+        color: var(--light-text);
+    }
+
+
+    //project styles
+    .project-intro {
+        border-bottom: 2px solid --light-section-line;
+    }
+
+    .tags li {
+        background-color: var(--primaryblue);
+        color: var(--offwhite);
+    }
+
+    blockquote {
+        border-left: --primaryblue solid 8px;
+    }
+
+    .next-project a {
+        color: var(--offwhite);
+    }
+
+    .next-project {
+        background-color: var(--primaryblue);
+    }
+
+    .next-project:hover {
+        background-color: var(--offblack);
+    }
+
+    .prev-project{
+        background-color: var(--primaryblue);
+    }
+
+    .prev-project:hover{
+        background-color: var(--offblack);
+    }
+
+    
 }
 
-body.dark {
-    background-color: #353535;
-    color: #FFFCF2;
-}
+
+// body.dark {
+//     background-color: var(--dark-bg);
+//     color: var(--dark-text);
+// }

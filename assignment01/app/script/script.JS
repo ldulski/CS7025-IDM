@@ -1,4 +1,4 @@
-console.log("Hello");
+console.log("HELLO");
 
 const darkButton = document.getElementById('dark');
 const lightButton = document.getElementById('light');

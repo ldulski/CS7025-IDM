@@ -29,4 +29,4 @@ INSERT INTO dantes_inferno (id, ring, punishment)
 (8,"Fruad", "A malebolge with different punishments");
 
 INSERT INTO dantes_inferno (id, ring, punishment)
-(9, "Treachery", "Your soul is froze far from God's light");
+(9, "Treachery", "Your soul is frozen far from God's light");

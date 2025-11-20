@@ -5,10 +5,6 @@ CREATE TABLE dantes_inferno (
 );
 
 INSERT INTO
-    dantes_inferno (column_ring)
-VALUES (1, 2, 3, 4, 5, 6, 7, 8, 9,);
-
-INSERT INTO
     dantes_inferno (column_circle)
 VALUES (
         "Limbo",

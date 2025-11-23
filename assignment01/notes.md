@@ -13,13 +13,6 @@ CSS Variables (custom properties) -- https://css-tricks.com/updating-a-css-varia
 Accessibility -- using the correct heading tags
 
 
-To-List (Updated: 11/16)
+To-List (Updated: 11/23)
 
-- add SCSS color styles
-- fix broken image links
-- figure out why Java isn't showing???
-- add dark mode colors
-- add light mode colors
-- double check toggle accessibility 
-- double check for any broken links
-- finish watching video tutorials to make sure I'm not missing anything
+- fix svg icons for light/dark mode

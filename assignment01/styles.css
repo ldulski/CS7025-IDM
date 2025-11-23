@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 :root {
-    --base-color: ;
+    --base-color: #FFFCF2;
     --text-color: #353535;
     --primary-color: #03178C;
     --variant-color: #e2fdff;
@@ -18,18 +18,21 @@
 
 
 body {
+    background-color: var(--base-color);
+    color: var(--text-color);
     margin: 45px 72px;
     max-width: 1440px;
 }
 
 section {
     margin: 0px 0px 45px 0px;
+    border-bottom: solid var(--text-color) 2px;
 }
 
 .nav-bar {
     display: flex;
     flex-flow: row nowrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -51,6 +54,7 @@ ul {
 }
 
 .nav-bar li a {
+    color: var(--text-color);
     text-decoration: none;
     font-family: "Source Sans 3", sans-serif;
     font-weight: 500;
@@ -59,6 +63,7 @@ ul {
 }
 
 .nav-bar li a:hover {
+    color: var(--primary-color);
     font-weight: 600;
     text-decoration: underline;
 }
@@ -103,20 +108,24 @@ p {
 }
 
 a {
+    color: var(--primary-color);
     font-family: "Source Sans 3", sans-serif;
     font-weight: 500;
     text-decoration: none;
 }
 
 a:hover {
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
 a:visited {
-    color: #353535;
+    color: var(--text-color);
 }
 
 button {
+    background-color: var(--text-color);
+    color: var(--base-color);
     padding: 10px 45px;
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.333rem;
@@ -126,15 +135,17 @@ button {
 }
 
 button:hover {
-    background-color: #03178C;
+    background-color: var(--primary-color);
 }
 
 button:visited {
-    background-color: #03178C;
+    background-color: var(--primary-color);
     opacity: 75%;
 }
 
 .primary-button {
+    background-color: var(--text-color);
+    color: var(--base-color);
     padding: 10px 45px;
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.333rem;
@@ -145,14 +156,14 @@ button:visited {
 }
 
 .primary-button:hover {
-    background-color: #03178C;
-    color: #FFFCF2;
+    background-color: var(--primary-color);
+    color: var(--base-color);
     text-decoration: none;
 }
 
 .primary-button:visited {
-    background-color: #03178C;
-    color: #FFFCF2;
+    background-color: var(--primary-color);
+    color: var(--base-color);
     opacity: 75%;
     text-decoration: none;
 }
@@ -265,6 +276,7 @@ button:visited {
 }
 
 .tags {
+    color: var(--primary-color);
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -431,6 +443,7 @@ blockquote {
 }
 
 .next-project a {
+    color: var(--base-color);
     font-family: "Source Serif 4", serif;
     font-weight: 400;
     font-size: 2.441rem;
@@ -444,11 +457,16 @@ blockquote {
     min-height: 190px;
     min-width: 1296px;
     margin: 35px 0px;
+    background-color: var(--text-color);
     background-image: url('/assignment01/images/beacon-multi-screen.jpg');
     background-size: 25%;
     background-repeat: no-repeat;
     transition-timing-function: ease-in;
     background-position-x: right;
+}
+
+.next-project:hover {
+    background-color: var(--primary-color);
 }
 
 .prev-project {
@@ -457,6 +475,7 @@ blockquote {
     min-height: 190px;
     min-width: 1296px;
     margin: 35px 0px;
+    background-color: var(--text-color);
     background-image: url('/assignment01/images/CC_bonfire_headerimage_v2.png');
     background-size: 40%;
     background-repeat: no-repeat;
@@ -469,8 +488,12 @@ blockquote {
     font-weight: 400;
     font-size: 2.441rem;
     text-decoration: none;
-    color: #FFFCF2;
+    color: var(--base-color);
     padding: 15px 45px;
+}
+
+.prev-project:hover {
+    background-color: var(--primary-color);
 }
 
 /* bio + contact  */

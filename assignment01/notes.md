@@ -16,3 +16,5 @@ Accessibility -- using the correct heading tags
 To-List (Updated: 11/23)
 
 - fix svg icons for light/dark mode
+- figure out how to reset lightmode/ set lightmode to default
+- if have time make more accessible

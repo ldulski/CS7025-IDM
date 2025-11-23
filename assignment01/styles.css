@@ -29,6 +29,32 @@ section {
     border-bottom: solid var(--text-color) 2px;
 }
 
+#theme-switch {
+    background-color: var(--variant-color);
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#theme-switch img:last-child {
+    display: none;
+}
+
+.dark-mode #theme-switch img:first-child {
+    display: none;
+}
+
+.dark-mode #theme-switch img:last-child {
+    display: block;
+}
+
+
 .nav-bar {
     display: flex;
     flex-flow: row nowrap;

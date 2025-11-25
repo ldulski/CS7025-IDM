@@ -17,7 +17,8 @@
 }
 
 
-body {
+body,
+.light-mode {
     background-color: var(--base-color);
     color: var(--text-color);
     margin: 45px 72px;
@@ -42,15 +43,15 @@ section {
 }
 
 
-#theme-switch img:last-child {
+#theme-switch svg:last-child {
     display: none;
 }
 
-.dark-mode #theme-switch img:first-child {
+.dark-mode #theme-switch svg:first-child {
     display: none;
 }
 
-.dark-mode #theme-switch img:last-child {
+.dark-mode #theme-switch svg:last-child {
     display: block;
 }
 

@@ -11,8 +11,9 @@ const enableDarkMode = () => {
 }
 
 const disableDarkMode = () => {
+    console.log("Running Disable Function")
     document.body.classList.remove('darkmode');
-    localStorage.setItem('#darkMode', null);
+    localStorage.setItem('darkMode', null);
 }
 
 // If the user already visited and enabled darkMode
@@ -24,10 +25,12 @@ if (darkMode === 'enabled') {
 // When someone clicks the button
 darkModeToggle.addEventListener('click', () => {
     darkMode = localStorage.getItem('darkMode');
-
-    if (darkMode !== 'enabled') {
+    console.log(darkMode)
+    if (darkMode != 'enabled') {
+        console.log("Enabling");
         enableDarkMode();
     } else {
+        console.log("Disabling");
         disableDarkMode();
     }
 });

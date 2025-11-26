@@ -54,12 +54,12 @@ section {
     display: block;
 }
 
-/* #logo img:last-child {
+#logo img:last-child {
     display: none;
-} */
+}
 
 .darkmode #logo img:first-child {
-    display: block;
+    display: none;
 }
 
 .darkmode #logo img:last-child {

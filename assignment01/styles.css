@@ -630,17 +630,3 @@ select {
     background-color: var(--primary-color);
     opacity: 75%;
 }
-
-/* toggle styles */
-fieldset {
-    border: none;
-}
-
-.visually-hidden {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}

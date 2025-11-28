@@ -106,10 +106,6 @@ ul {
     text-decoration: underline;
 }
 
-/* #logo {
-    color: var(--primary-color);
-} */
-
 h1 {
     font-family: "Source Serif 4", serif;
     font-weight: 600;
@@ -500,7 +496,7 @@ blockquote {
     min-width: 1296px;
     margin: 35px 0px;
     background-color: var(--text-color);
-    background-image: url('/assignment01/images/beacon-multi-screen.jpg');
+    background-image: url('beacon-multi-screen.jpg');
     background-size: 25%;
     background-repeat: no-repeat;
     transition-timing-function: ease-in;
@@ -518,7 +514,7 @@ blockquote {
     min-width: 1296px;
     margin: 35px 0px;
     background-color: var(--text-color);
-    background-image: url('/assignment01/images/CC_bonfire_headerimage_v2.png');
+    background-image: url('CC_bonfire_headerimage_v2.png');
     background-size: 40%;
     background-repeat: no-repeat;
     transition-timing-function: ease-in;

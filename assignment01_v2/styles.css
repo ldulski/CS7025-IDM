@@ -70,13 +70,17 @@ section {
 .nav-bar {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .nav-bar img {
+    position: absolute;
     max-width: 35%;
     max-height: auto;
+    left: 72px;
+    margin-top: 45px;
+    top: 0;
 }
 
 .nav-bar a img {
@@ -87,8 +91,9 @@ section {
 ul {
     display: flex;
     flex-flow: row nowrap;
-    justify-items: flex-start;
+    justify-items: flex-end;
     list-style: none;
+    margin-right: 25px;
 }
 
 .nav-bar li a {
@@ -322,15 +327,14 @@ button:visited {
     padding: 0px;
     gap: 10px;
     font-family: "Source Sans 3", sans-serif;
-    font-size: 1rem;
+    font-size: 1.333rem;
     font-weight: 500;
     max-width: 850px;
 }
 
 .tags li {
-    margin: 0px 5px;
-    padding: 10px 12px;
-    border-radius: 12px;
+    margin: 0px 5px 0px 0px;
+    /* padding: 10px 12px; */
 }
 
 .project-intro img {

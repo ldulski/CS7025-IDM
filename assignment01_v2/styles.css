@@ -496,7 +496,7 @@ blockquote {
     min-width: 1296px;
     margin: 35px 0px;
     background-color: var(--text-color);
-    background-image: url('beacon-multi-screen.jpg');
+    background-image: url('images/beacon-multi-screen.jpg');
     background-size: 25%;
     background-repeat: no-repeat;
     transition-timing-function: ease-in;
@@ -514,7 +514,7 @@ blockquote {
     min-width: 1296px;
     margin: 35px 0px;
     background-color: var(--text-color);
-    background-image: url('CC_bonfire_headerimage_v2.png');
+    background-image: url('images/CC_bonfire_headerimage_v2.png');
     background-size: 40%;
     background-repeat: no-repeat;
     transition-timing-function: ease-in;

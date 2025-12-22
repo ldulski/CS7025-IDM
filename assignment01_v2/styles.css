@@ -41,6 +41,7 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 /* light dark toggle styles */
 
 #theme-switch svg:last-child {
@@ -66,19 +67,22 @@ section {
 .darkmode #logo img:last-child {
     display: block;
 }
+
 /* toggle styles end */
 
 /* quote styles */
 #quote {
     margin: 16px 0px;
     padding: 14px 16px;
-    border: solid 1.15px #000;
-    background-color: aqua;
-    color: blueviolet;
+    border: solid 2px var(--text-color);
+    background-color: var(--base-color);
+    color: var(--text-color);
     text-align: center;
-    font-size: 1rem;
     max-width: 400px;
     max-height: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 
 .quote-position {
@@ -86,13 +90,14 @@ section {
     z-index: 2;
     width: 25%;
     left: 645px;
-    top: -10px;
+    top: 87px;
 }
 
 hr {
     margin: 25px 0px;
-    border: solid 1.15px #000;
+    border: solid 1px var(--text-color);
 }
+
 /* quote styles end */
 
 .nav-bar {

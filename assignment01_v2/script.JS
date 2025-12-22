@@ -35,30 +35,32 @@ darkModeToggle.addEventListener('click', () => {
     }
 });
 
-// let darkmode = localStorage.getItem('dark-mode');
-// let lightmode = localStorage.getItem('light-mode');
-// const themeSwitch = document.getElementById('theme-switch');
+// quote array begins here
+const quotes = [
+    "🎵 Listening: Illit",
+    "📖 Reading: The Importance of Being Earnest",
+    "📺 Watching: The Unsleeping City",
+    "🍀 Currently: Photosynthesizing",
+    "🎮 Playing: Winter Burrow",
+    "🎵 Listening: NADDPOD",
+    "📖 Reading: White Nights",
+    "📺 Watching: Xmas Movies",
+    "🧶 Currently: Crocheting",
+    "🎮 Playing: Roki",
+    "🎵 Listening: Olivia Dean",
+    "📖 Reading: Slewfoot",
+    "📺 Watching: The Broski Report",
+    "📈 Currently: Starting an MLM Scheme",
+    "🎲 Playing: Dungeons & Dragons",
+];
 
-
-// const enableDarkmode = () => {
-//     document.body.classList.add('dark-mode');
-//     localStorage.setItem('dark-mode', 'active');
-// };
-
-// const disableDarkmode = () => {
-//     document.body.classList.remove('dark-mode');
-//     localStorage.setItem('dark-mode', null);
-// };
-
-// if (darkmode === "active") {
-//     enableDarkmode();
-// } else {
-//     enableLightmode();
-// }
-
-
-// themeSwitch.addEventListener("click", () => {
-//     darkmode = localStorage.getItem('darkmode');
-//     darkmode !== "active" ? enableDarkmode() : disableDarkmode();
-//     lightmode !== "active" ? enableLightmode() : disableLightmode();
-// });
+//Swapping quotes
+function randomQuote() {
+    const quoteSpan = document.getElementById("quote");
+    if (quoteSpan) {
+        quoteSpan.innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
+    }
+}
+//Quote Time Intervals
+randomQuote();
+window.setInterval(randomQuote, 5000);

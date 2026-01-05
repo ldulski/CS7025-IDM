@@ -68,7 +68,7 @@ window.setInterval(randomQuote, 5000);
 
 //typewriter intro text
 var i = 0;
-var txt = 'I’m Logan — a digital whiz kid and designer who creates things with computers and craft glue.';
+var txt = 'I’m Logan — a digital craftsman, storyteller, luck-wearer, riddle-maker, barrel-rider, and more. Currently working as a freelancer and design researcher; all while getting my MSc at Trinity College Dublin.';
 var speed = 50;
 
 function typeWriter () {

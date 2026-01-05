@@ -144,12 +144,18 @@ ul {
     text-decoration: underline;
 }
 
-h1 {
+.h1 {
     font-family: "Source Serif 4", serif;
     font-weight: 600;
     font-size: 5.61rem;
     line-height: 1.5rem;
     margin: 0px 0px 20px 0px;
+    text-decoration: none;
+}
+
+.h1:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 h2 {

@@ -81,7 +81,14 @@ function typeWriter() {
 
 
 //custom cursor active
-
+// $(document).ready(function () {
+//     $(document).on('mousemove', function (e) {
+//         $('#circularcusor').css({
+//             left: e.pageX,
+//             top: e.pageY
+//         });
+//     });
+// });
 document.body.onmousemove = function (e) {
     document.documentElement.style.setProperty(
         '--x', (e.clientX + window.scrollX) + 'px'

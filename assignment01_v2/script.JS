@@ -38,13 +38,13 @@ darkModeToggle.addEventListener('click', () => {
 // quote array begins here
 const quotes = [
     "🎵 Listening: Illit",
-    "📖 Reading: The Importance of Being Earnest",
+    "📖 Reading: The Morrigan",
     "📺 Watching: The Unsleeping City",
     "🍀 Currently: Photosynthesizing",
     "🎮 Playing: Winter Burrow",
     "🎵 Listening: NADDPOD",
     "📖 Reading: White Nights",
-    "📺 Watching: Xmas Movies",
+    "📺 Watching: Heated Rivarly",
     "🧶 Currently: Crocheting",
     "🎮 Playing: Roki",
     "🎵 Listening: Olivia Dean",
@@ -64,3 +64,17 @@ function randomQuote() {
 //Quote Time Intervals
 randomQuote();
 window.setInterval(randomQuote, 5000);
+
+
+//typewriter intro text
+var i = 0;
+var txt = 'I’m Logan — a digital whiz kid and designer who creates things with computers and craft glue.';
+var speed = 50;
+
+function typeWriter () {
+    if (i < txt.length) {
+        document.getElementById("intro-text").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+};

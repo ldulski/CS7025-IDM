@@ -71,7 +71,7 @@ var i = 0;
 var txt = 'I’m Logan — a digital craftsman, storyteller, luck-wearer, riddle-maker, barrel-rider, and more. Currently working as a freelancer and design researcher; all while getting my MSc at Trinity College Dublin.';
 var speed = 50;
 
-function typeWriter () {
+function typeWriter() {
     if (i < txt.length) {
         document.getElementById("intro-text").innerHTML += txt.charAt(i);
         i++;
@@ -82,11 +82,11 @@ function typeWriter () {
 
 //custom cursor active
 
-document.body.onmousemove = function(e){
+document.body.onmousemove = function (e) {
     document.documentElement.style.setProperty(
-        '--x',(e.clientX+window.scrollX) + 'px'
+        '--x', (e.clientX + window.scrollX) + 'px'
     );
     document.documentElement.style.setProperty(
-        '--y', (e.clientY+window.scrollY) + 'px'
+        '--y', (e.clientY + window.scrollY) + 'px'
     );
 }

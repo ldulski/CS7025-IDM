@@ -153,7 +153,12 @@ ul {
 }
 
 .h1:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: var(--text-color);
+    cursor: pointer;
+}
+.h1:visited{
+    color: var(--primary-color);
 }
 
 h2 {
@@ -192,13 +197,13 @@ a {
     font-family: "Source Sans 3", sans-serif;
     font-weight: 500;
     text-decoration: none;
-    cursor: none;
+    cursor: pointer;
 }
 
 a:hover {
     color: var(--primary-color);
     text-decoration: underline;
-    cursor: none;
+    cursor: pointer;
 }
 
 a:visited {
@@ -238,7 +243,7 @@ button:visited {
 }
 
 .primary-button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--variant-color);
     color: var(--base-color);
     text-decoration: none;
 }
@@ -357,7 +362,7 @@ button:visited {
     flex-flow: column nowrap;
 }
 
-.tags {
+.tags{
     color: var(--primary-color);
     display: flex;
     flex-flow: row nowrap;
@@ -373,7 +378,6 @@ button:visited {
 
 .tags li {
     margin: 0px 5px 0px 0px;
-    /* padding: 10px 12px; */
 }
 
 .project-intro img {

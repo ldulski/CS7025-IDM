@@ -98,7 +98,23 @@ hr {
 }
 
 /* quote styles end */
+/* progress bar start */
+.progress-indicator {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 10px;
+    color: var(--base-color);
+}
 
+.progress-bar {
+    height: 10px;
+    background-color: var(--primary-color);
+    width: 0%;
+}
+
+/* progress bar end */
 .nav-bar {
     display: flex;
     flex-flow: row nowrap;
@@ -157,7 +173,8 @@ ul {
     color: var(--text-color);
     cursor: pointer;
 }
-.h1:visited{
+
+.h1:visited {
     color: var(--primary-color);
 }
 
@@ -362,7 +379,7 @@ button:visited {
     flex-flow: column nowrap;
 }
 
-.tags{
+.tags {
     color: var(--primary-color);
     display: flex;
     flex-flow: row nowrap;

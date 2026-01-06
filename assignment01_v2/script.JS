@@ -79,23 +79,3 @@ function typeWriter() {
     }
 };
 
-
-//custom cursor active
-$(document).ready(function() {
-  $(document).on('mousemove', function(e) {
-    $('#circularcursor').css({
-      left: e.pageX,
-      top: e.pageY
-    });
-  });
-});
-// const circle = document.querySelector('#circularcursor');
-
-// document.addEventListener('mousemove',
-//     (e) => {
-//         const mouseX = e.clientX;
-//         const mouseY = e.clientY;
-//         circle.style.left = `${mouseX}px`;
-//         circle.style.top = `${mouseY}px`;
-//     }
-// );

@@ -16,10 +16,6 @@
     --variant-color: #03178C;
 }
 
-html {
-    cursor: none;
-}
-
 body {
     background-color: var(--base-color);
     color: var(--text-color);
@@ -30,29 +26,6 @@ body {
 section {
     margin: 0px 0px 45px 0px;
     border-bottom: solid var(--text-color) 2px;
-}
-
-
-/* custom cursor */
-#circularcursor {
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    opacity: 75%;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-}
-
-#circularcursor:hover {
-    background-color: var(--variant-color);
-    border: 1px solid var(--variant-color);
-    width: 150px;
-    height: 150px;
-    transition: all 2s ease-in-out;
 }
 
 #theme-switch {

@@ -89,3 +89,5 @@ function myFunction() {
     document.getElementById("myBar").style.width = scrolled + "%";
 }
 
+//last modified 
+document.getElementById("lastMod").innerHTML = document.lastModified;

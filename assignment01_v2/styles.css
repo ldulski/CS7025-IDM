@@ -99,18 +99,19 @@ hr {
 
 /* quote styles end */
 
-/*last modified start*/ 
-#lastMod{ 
+/*last modified start*/
+#lastMod {
     font-size: 1.333rem;
     color: var(--text-color);
 }
+
 /*last modified end*/
 
 /* progress bar start */
 .progress-indicator {
     position: fixed;
     padding: 15px 72px;
-    left:0;
+    left: 0;
     top: 0;
     z-index: 1;
     width: 100%;
@@ -184,32 +185,38 @@ ul {
     color: var(--text-color);
     cursor: pointer;
 }
+
 /*circle marker start*/
-#marker{
-  position: relative;
-  margin: 0px;
-  text-decoration: none;
-  line-height: 2em;
-  & svg {
-    position: absolute;
-    left: 0;
-    top: -50%;
-    right: 0; 
-  }
-  & path {
-    transition: stroke-dashoffset 5s ease-in-out;
-    stroke-width: 2px;
-    stroke: var(--primary-color);
-    fill: none;
-    stroke-linecap: round;
-  }
-  &:hover path{
-    stroke-dashoffset: 0;
-  } 
-  &:active path{
-    display: none;
-  }
+#marker {
+    position: relative;
+    margin: 0px;
+    text-decoration: none;
+    line-height: 1em;
+
+    & svg {
+        position: absolute;
+        left: 0;
+        top: -50%;
+        right: 0;
+    }
+
+    & path {
+        transition: stroke-dashoffset 500ms ease-in-out;
+        stroke-width: 3.75px;
+        stroke: var(--primary-color);
+        fill: none;
+        stroke-linecap: round;
+    }
+
+    &:hover path {
+        stroke-dashoffset: 0;
+    }
+
+    &:active path {
+        display: none;
+    }
 }
+
 /* circle marker end */
 
 .h1:visited {
@@ -356,7 +363,7 @@ button:visited {
 }
 
 .hero .callout {
-    max-width: 545px;
+    max-width: 600px;
 }
 
 

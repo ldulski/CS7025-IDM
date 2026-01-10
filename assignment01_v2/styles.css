@@ -181,10 +181,36 @@ ul {
 }
 
 .h1:hover {
-    text-decoration: underline;
     color: var(--text-color);
     cursor: pointer;
 }
+/*circle marker start*/
+#marker {
+  position: relative;
+  margin: 0 40px;
+  text-decoration: none;
+  line-height: 1em;
+  & svg {
+    position: absolute;
+    left: 0;
+    top: -50%;
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    pointer-events: none;   
+  }
+  & path {
+      transition: stroke-dashoffset 300ms linear;
+    stroke-width: 1px;
+    stroke: var(--primary-color);
+    fill: none;
+    stroke-linecap: round;
+  }
+  &:hover path{
+    stroke-dashoffset: 0;
+  } 
+}
+/* circle marker end */
 
 .h1:visited {
     color: var(--primary-color);

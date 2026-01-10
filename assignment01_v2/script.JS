@@ -79,7 +79,7 @@ function typeWriter() {
     }
 };
 
-//progress bar scroll
+// project page progress bar scroll
 window.onscroll = function () { myFunction() };
 
 function myFunction() {
@@ -89,7 +89,7 @@ function myFunction() {
     document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-//last modified 
+//last modified footer element
 document.getElementById("lastMod").innerHTML = document.lastModified;
 
 //circle marker
@@ -118,7 +118,7 @@ jQuery(function() {
                 viewBox: "-1 -1 2 2"
             });
         marker[0].appendChild(svg);
-        
+
         var path = document.createElementNS(ns, "path");
 
         $(path)

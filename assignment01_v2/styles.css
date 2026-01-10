@@ -676,7 +676,7 @@ blockquote {
     font-size: 1.333rem;
     line-height: 2.75rem;
 }
-
+/* form styles start */
 form {
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.953rem;
@@ -738,3 +738,5 @@ select {
     background-color: var(--primary-color);
     opacity: 75%;
 }
+
+/* form styles end */

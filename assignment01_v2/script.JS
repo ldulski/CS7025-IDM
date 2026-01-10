@@ -110,7 +110,7 @@ jQuery(function() {
             .css({
                 width: width,
                 height: height,
-                transform: "scale(" + (2 * widthGain * width) / height + "," + heightGain + ")"
+                transform: "scale(" + (1.5 * widthGain * width) / height + "," + heightGain + ")"
             })
             .attr({
                 width: width,
@@ -131,7 +131,7 @@ jQuery(function() {
         setCircle(false);
         setCircle(false);
 
-        marker.mouseover(function(){
+        marker.mouseover(function() {
             setCircle(true);
         });
 

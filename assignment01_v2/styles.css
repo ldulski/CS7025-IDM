@@ -189,19 +189,16 @@ ul {
   position: relative;
   margin: 0px;
   text-decoration: none;
-  line-height: 1em;
+  line-height: 2em;
   & svg {
     position: absolute;
     left: 0;
     top: -50%;
     right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    pointer-events: none;   
   }
   & path {
-      transition: stroke-dashoffset 300ms linear;
-    stroke-width: 1px;
+      transition: stroke-dashoffset 100ms ease-in-out;
+    stroke-width: 2px;
     stroke: var(--primary-color);
     fill: none;
     stroke-linecap: round;

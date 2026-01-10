@@ -153,6 +153,7 @@ jQuery(function() {
                     "stroke-dashoffset": pathLength
                 });
         }
+        //generating circle path ref: https://codepen.io/spencerthayer/pen/rNKmyL
         function circlePath(dr_min, dr_max, θ0_min, θ0_max, dθ_min, dθ_max) {
             var c = 0.551915024494,
                 β = Math.atan(c),

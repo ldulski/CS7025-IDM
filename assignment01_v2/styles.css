@@ -182,7 +182,6 @@ ul {
 }
 
 .h1:hover {
-    color: var(--text-color);
     cursor: pointer;
 }
 

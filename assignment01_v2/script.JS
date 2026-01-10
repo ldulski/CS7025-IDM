@@ -129,10 +129,13 @@ jQuery(function() {
         svg.appendChild(path);
 
         setCircle(false);
-        setCircle(false);
 
-        marker.mouseover(function() {
+        marker.mouseenter(function() {
             setCircle(true);
+        });
+
+        marker.mouseleave(function(){
+            setCircle(false);
         });
 
         function setCircle(show_element){
@@ -154,6 +157,7 @@ jQuery(function() {
                 });
         }
         //generating circle path ref: https://codepen.io/spencerthayer/pen/rNKmyL
+
         function circlePath(dr_min, dr_max, θ0_min, θ0_max, dθ_min, dθ_max) {
             var c = 0.551915024494,
                 β = Math.atan(c),

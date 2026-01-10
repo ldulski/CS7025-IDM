@@ -93,7 +93,7 @@ function myFunction() {
 document.getElementById("lastMod").innerHTML = document.lastModified;
 
 //circle marker
-jQuery (function(){
+jQuery(function() {
     var markers = $('#marker'); 
     var widthGain = 1;
     var heightGain = 1; 

@@ -187,7 +187,7 @@ ul {
 /*circle marker start*/
 #marker {
   position: relative;
-  margin: 0 40px;
+  margin: 0px;
   text-decoration: none;
   line-height: 1em;
   & svg {
